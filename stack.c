@@ -48,11 +48,7 @@ int main()
 	int c;
 	printf("Enter stack size: ");
 	scanf("%d",&n);
-/*  
-    printf("Enter elements\n");
-	for(int i=0; i<n; i++)
-		scanf("%d",&stack[i]);
-*/
+
 	printf("\n1) Push\n2) Pop\n3) Display\n4) Exit");
 	while(c!=4)
 	{
@@ -89,4 +85,5 @@ int main()
 			
 	}
 }
+return 0;
 }
